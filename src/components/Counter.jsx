@@ -4,14 +4,11 @@ import { useState } from 'react'
 const Counter = () => {
     const [initializeValue, setInitializeValue] = useState(0);
 
-    const increment = () => {
-        setInitializeValue(prev => prev + 1);
-    }
   return (
     <div>
         <h1>Counter</h1>
-        <h2>Value: {initializeValue}</h2>
-        <button onClick={increment}>+</button>
+        <h2>You clicked {initializeValue} times.</h2>
+        <button onClick={() => setInitializeValue(initializeValue + 1)}>Clicked</button>
     </div>
   )
 }

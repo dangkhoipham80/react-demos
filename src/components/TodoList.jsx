@@ -37,11 +37,13 @@ const TodoList = () => {
   return (
     <div>
         <h1>Todos List</h1>
-        <table style={{border: '1px solid'}}>
+        <table border={1}>
             <thead>
-                <th>ID</th>
-                <th>Title</th>
-                <th>Notes</th>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Notes</th>
+                </tr>
             </thead>
             <tbody>
             {todos.map(t => (
