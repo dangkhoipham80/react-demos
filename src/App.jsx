@@ -1,18 +1,12 @@
-import Count from "./components/Count"
-import ExampleLocalStorage from "./components/ExampleLocalStorage"
-import FriendList from "./components/FriendList"
-import Movie from "./components/Movie"
+import Counter from "./components/Counter"
+import TodoList from "./components/TodoList"
 
 const App = () => {
   return (
     <section>
-      <Count />
+      <Counter />
       <hr />
-      <FriendList />
-      <hr />
-      <Movie />
-      <hr />
-      <ExampleLocalStorage />
+      <TodoList />
     </section>
   )
 }
