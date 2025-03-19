@@ -1,4 +1,5 @@
 import Count from "./components/Count"
+import ExampleLocalStorage from "./components/ExampleLocalStorage"
 import FriendList from "./components/FriendList"
 import Movie from "./components/Movie"
 
@@ -10,6 +11,8 @@ const App = () => {
       <FriendList />
       <hr />
       <Movie />
+      <hr />
+      <ExampleLocalStorage />
     </section>
   )
 }
